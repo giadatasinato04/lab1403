@@ -1,0 +1,19 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://giadatasinato04.github.io/modelling0703/my_profile.ttl>
+   a foaf:PersonalProfileDoucment ; 
+   foaf:maker <https://giadatasinato04.github.io/modelling0703/my_profile.ttl#me> ; 
+   foaf:primaryTopic <https://www.wikidata.org/wiki/Q7814> . 
+
+<https://giadatasinato04.github.io/modelling0703/my_profile.ttl#me>
+ a foaf:Person; 
+ foaf:name "Giada Tasinato" ; 
+ foaf:givenName "Gi";
+ foaf:birthday "August 4th";
+ foaf:age 22; 
+ foaf:Group "Student"; 
+ foaf:mbox "874189@stud.unive.it". 
+
+<https://www.wikidata.org/wiki/Q7814>
+  foaf:deathday "January 8th 1337" ; 
+  foaf:creatorOf "Cappella degli Scrovegni" . 
